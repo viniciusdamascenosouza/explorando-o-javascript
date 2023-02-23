@@ -8,3 +8,6 @@ console.log(Idade);
 
 const nome = "Ricardo";
 let ano = 2023;
+
+// Não declarar dessa forma!
+mes = "Janeiro";
