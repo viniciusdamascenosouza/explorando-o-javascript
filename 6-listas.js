@@ -15,6 +15,9 @@ const listaDeDestinos = new Array(
     `Belo Horizonte`,
 );
 
-listaDeDestinos.push(`Florianópolis`);
+listaDeDestinos.push(`Florianópolis`); //Adicionando item ao final do array
+listaDeDestinos.splice(2, 2); //Removendo itens
+listaDeDestinos.shift(); //Removendo primeiro elemento
+listaDeDestinos.pop(); //Removendo último elemento
 
 console.log(listaDeDestinos)
