@@ -30,3 +30,10 @@ while (contador < 3) {
 }
 
 console.log("Destino existe: ", destinoExiste);
+
+
+for (let i = 0 ; i < 3 ; i++) {
+    if (listaDeDestinos[i] == destino) {
+        destinoExiste = true;
+    }
+}
