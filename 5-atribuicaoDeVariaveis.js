@@ -1,7 +1,7 @@
 console.log("Trabalhando com atribuição de variáveis");
 // JavaScript é uma linguagem CASE SENSITIVE
 
-const idade = 20;
+// const idade = 20;
 const nome = "Vinícius";
 const sobrenome = "Damasceno";
 
@@ -17,3 +17,12 @@ console.log(`Meu nome é ${nomeSobrenome}, e tenho ${idade} anos de idade.`);
 
 // Pórem a melhor forma de fazer é:
 console.log(`Meu nome é ${nome} ${sobrenome}, e tenho ${idade} anos de idade.`);
+
+let idade; //declarando variável
+idade = 20; // atribuindo variável
+idade = idade + 1;
+console.log(idade);
+
+
+let contador = 0;
+contador = contador + 1;
