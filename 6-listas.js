@@ -20,4 +20,4 @@ listaDeDestinos.splice(2, 2); //Removendo itens
 listaDeDestinos.shift(); //Removendo primeiro elemento
 listaDeDestinos.pop(); //Removendo último elemento
 
-console.log(listaDeDestinos)
+console.log(listaDeDestinos);
