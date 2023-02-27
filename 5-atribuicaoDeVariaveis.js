@@ -8,9 +8,12 @@ const sobrenome = "Damasceno";
 // Usando concatenação:
 console.log(nome + " " + sobrenome + " tem " + idade + " anos de idade.");
 
-// Criando uma constante para não ser necessário concatenar dentro de atemplate string:
+// Criando uma constante para não ser necessário concatenar dentro da template string:
 const nomeSobrenome = nome + " " + sobrenome;
 console.log(nomeSobrenome);
 
 // Usando template string:
 console.log(`Meu nome é ${nomeSobrenome}, e tenho ${idade} anos de idade.`);
+
+// Pórem a melhor forma de fazer é:
+console.log(`Meu nome é ${nome} ${sobrenome}, e tenho ${idade} anos de idade.`);
